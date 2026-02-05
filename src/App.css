@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* height of your navbar */
+}
+/* Offset anchor targets for fixed navbar */
+section[id]::before {
+  content: "";
+  display: block;
+  height: 90px;           /* navbar height */
+  margin-top: -90px;     /* same value, negative */
+  visibility: hidden;
+}

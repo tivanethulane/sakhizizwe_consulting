@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px; /* height of your navbar */
+}
+/* Offset anchor targets for fixed navbar */
+section[id]::before {
+  content: "";
+  display: block;
+  height: 90px;           /* navbar height */
+  margin-top: -90px;     /* same value, negative */
+  visibility: hidden;
+}

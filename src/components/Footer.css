@@ -1,0 +1,13 @@
+.footer {
+  border-top: 1px solid #ccc; /* grey top border */
+  background-color: #fff;     /* white background */
+  color: #000;                /* black text */
+}
+
+.footer a {
+  text-decoration: none;      /* remove underline */
+}
+
+.footer span {
+  color: #000; /* black text for "Follow us on:" */
+}

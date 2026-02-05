@@ -1,0 +1,35 @@
+.cookie-consent {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 2000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cookie-consent p {
+  margin: 0;
+  font-size: 0.9rem;
+  flex: 1 1 200px;
+  color: #000;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .cookie-buttons {
+    margin-top: 0;
+  }
+}
