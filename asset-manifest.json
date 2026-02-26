@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tivanethulane/sakhizizwe_consulting.git/static/css/main.9b3402f0.css",
+    "main.js": "/tivanethulane/sakhizizwe_consulting.git/static/js/main.24cf6c62.js",
+    "index.html": "/tivanethulane/sakhizizwe_consulting.git/index.html",
+    "main.9b3402f0.css.map": "/tivanethulane/sakhizizwe_consulting.git/static/css/main.9b3402f0.css.map",
+    "main.24cf6c62.js.map": "/tivanethulane/sakhizizwe_consulting.git/static/js/main.24cf6c62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b3402f0.css",
+    "static/js/main.24cf6c62.js"
+  ]
+}
