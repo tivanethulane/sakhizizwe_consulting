@@ -8,11 +8,10 @@ const Hero = () => {
       id="hero"
       className="hero-section text-white d-flex align-items-center section-offset"
       style={{
-        backgroundImage: "url(/images/security5.png)", // replace with a suitable security image
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "100vh",
-      }}
+  backgroundImage: `url(${process.env.PUBLIC_URL + "/images/security5.png"})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+}}
     >
       <Container className="text-center">
         <h1 className="display-3 fw-bold animate__animated animate__fadeInDown">

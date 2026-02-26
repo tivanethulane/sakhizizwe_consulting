@@ -34,7 +34,7 @@ const servicesData = [
       "Crowd control, risk management, and on-site security for events, functions, and special occasions."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/digital.png",
+    image: process.env.PUBLIC_URL + "/images/security7.png",
     title: "Security Risk Assessments & Consulting",
     description:
       "Professional evaluation of security risks with tailored strategies to protect people, assets, and operations."
