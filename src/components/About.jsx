@@ -18,7 +18,7 @@ const About = () => {
         <Row className="align-items-center">
           <Col md={6} className="mb-4">
             <Image
-              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+              src="/images/security10.png"
               alt="Engineering and IT"
               fluid
               rounded
@@ -27,18 +27,20 @@ const About = () => {
           </Col>
           <Col md={6}>
             <p>
-              At <strong>Twice Enterprise Solutions</strong>, we specialize in delivering innovative engineering automation,
-              software development, quality assurance, and comprehensive IT services tailored to your business goals.
-            </p>
-            <p>
-              Our team of experienced engineers and developers collaborates closely with clients to design system architectures
-              that optimize performance, enhance productivity, and future-proof operations. We are passionate about digital
-              transformation, helping businesses embrace technology to stay competitive and efficient.
-            </p>
-            <p>
-              Whether you're looking to automate manufacturing lines, develop custom software, or overhaul your IT infrastructure,
-              Twice Enterprise Solutions is your trusted partner for success.
-            </p>
+    At <strong>SAKHIZIZWE TRADING ENTERPRISE</strong>, we specialize in providing professional security consulting services 
+    designed to protect businesses, assets, and people. Our solutions include risk assessments, strategic planning, 
+    and the implementation of effective security measures tailored to your unique needs.
+  </p>
+  <p>
+    Our team of experienced security consultants works closely with clients to identify vulnerabilities, 
+    develop customized strategies, and ensure compliance with industry standards and regulations. 
+    We are committed to proactive protection, helping organizations prevent threats before they occur.
+  </p>
+  <p>
+    Whether you require risk analysis, event security management, access control, or CCTV monitoring, 
+    <strong>SAKHIZIZWE TRADING ENTERPRISE</strong> is your trusted partner for reliable, professional, and ethical security solutions.
+  </p>
+
           </Col>
         </Row>
       </Container>

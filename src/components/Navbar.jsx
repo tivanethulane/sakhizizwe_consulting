@@ -24,7 +24,7 @@ const NavigationBar = () => {
     src={`${process.env.PUBLIC_URL}/favicon.ico`}
     alt="Logo"
     width="50"
-    height="50"
+    height="30"
     className="d-inline-block align-top"
   />
 </Navbar.Brand>

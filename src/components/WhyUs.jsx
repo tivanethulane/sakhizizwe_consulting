@@ -1,49 +1,60 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaCheckCircle, FaHandshake, FaLightbulb, FaUsers } from "react-icons/fa";
-import './WhyUs.css';
-
-const reasons = [
-  {
-    icon: <FaCheckCircle size={40} className="text-success" />,
-    title: "Proven Expertise",
-    description: "Years of experience delivering quality solutions in engineering and IT."
-  },
-  {
-    icon: <FaHandshake size={40} className="text-success" />,
-    title: "Client-Centered",
-    description: "We collaborate closely to tailor solutions that meet your exact needs."
-  },
-  {
-    icon: <FaLightbulb size={40} className="text-success" />,
-    title: "Innovative Solutions",
-    description: "We apply the latest technology trends to solve complex business challenges."
-  },
-  {
-    icon: <FaUsers size={40} className="text-success" />,
-    title: "Dedicated Support",
-    description: "Our team provides ongoing support to ensure your success long-term."
-  },
-];
+import { FaCheckCircle } from "react-icons/fa";
+import "./WhyUs.css";
 
 const WhyUs = () => {
   return (
     <section id="whyus" className="py-6 section-offset">
       <Container>
-       <div className="space">
+        
           <br />
           <br />
           <br />
-        </div>
+
+        {/* CENTERED HEADING */}
         <h2 className="text-center mb-5">Why Choose Us?</h2>
-        <Row>
-          {reasons.map((reason, idx) => (
-            <Col md={3} key={idx} className="text-center mb-4">
-              <div className="mb-3">{reason.icon}</div>
-              <h5>{reason.title}</h5>
-              <p>{reason.description}</p>
-            </Col>
-          ))}
+
+        <Row className="align-items-center">
+
+          {/* LEFT CONTENT */}
+          <Col md={6}>
+            <p className="mb-4">
+              At <strong>SAKHIZIZWE TRADING ENTERPRISE</strong>, we combine professional expertise, integrity, 
+              and a client-focused approach to provide reliable security consulting services. 
+              Our team works closely with you to assess risks, implement effective strategies, 
+              and ensure the protection of your business, assets, and people.
+            </p>
+
+            <ul className="whyus-list">
+              <li>
+                <FaCheckCircle className="text-success me-2" />
+                Expert security risk analysis
+              </li>
+              <li>
+                <FaCheckCircle className="text-success me-2" />
+                Tailored security solutions for your needs
+              </li>
+              <li>
+                <FaCheckCircle className="text-success me-2" />
+                Proactive threat prevention strategies
+              </li>
+              <li>
+                <FaCheckCircle className="text-success me-2" />
+                Ethical, reliable, and confidential service
+              </li>
+            </ul>
+          </Col>
+
+          {/* RIGHT IMAGE */}
+          <Col md={6} className="text-center">
+            <img
+              src="/images/security3.png"  // keep or update to relevant security image
+              alt="Why Choose Us"
+              className="img-fluid whyus-image"
+            />
+          </Col>
+
         </Row>
       </Container>
     </section>

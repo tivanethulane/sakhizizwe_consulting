@@ -1,0 +1,13 @@
+.whyus-list {
+  list-style: none;
+  padding: 0;
+}
+
+.whyus-list li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.whyus-image {
+  max-width: 90%;
+}

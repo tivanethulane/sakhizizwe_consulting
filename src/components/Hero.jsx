@@ -8,15 +8,18 @@ const Hero = () => {
       id="hero"
       className="hero-section text-white d-flex align-items-center section-offset"
       style={{
-        backgroundImage: "url(/images/gero-robotic.png)",
+        backgroundImage: "url(/images/security5.png)", // replace with a suitable security image
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
       }}
     >
-      <Container className="text-center" >
-        <h1 className="display-3 fw-bold animate__animated animate__fadeInDown" >
-          Twice Enterprise Solutions
+      <Container className="text-center">
+        <h1 className="display-3 fw-bold animate__animated animate__fadeInDown">
+          SAKHIZIZWE TRADING ENTERPRISE
         </h1>
         <p className="lead my-4 animate__animated animate__fadeInUp">
-          Engineering Automation | Software Development | Quality Assurance | IT Consulting
+          Professional Security Consulting | Risk Assessment | Threat Prevention | Asset Protection
         </p>
         <Button
           href="#contact"
@@ -24,7 +27,7 @@ const Hero = () => {
           variant="primary"
           className="animate__animated animate__zoomIn"
         >
-          Contact Us Today
+          Request a Consultation
         </Button>
       </Container>
     </section>

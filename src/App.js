@@ -8,6 +8,7 @@ import WhyUs from "./components/WhyUs";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent"; // now exists
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';

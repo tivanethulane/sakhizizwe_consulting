@@ -33,7 +33,7 @@ const Footer = () => {
 
         {/* Copyright text */}
         <small className="mt-2 mt-lg-0">
-          © {new Date().getFullYear()} Twice Enterprise Solutions. All rights reserved.
+          © {new Date().getFullYear()} SAKHIZIZWE TRADING ENTERPRISE. All rights reserved.
         </small>
       </Container>
     </footer>
