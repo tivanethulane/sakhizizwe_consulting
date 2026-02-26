@@ -49,7 +49,7 @@ const WhyUs = () => {
           {/* RIGHT IMAGE */}
           <Col md={6} className="text-center">
             <img
-              src="/images/security3.png"  // keep or update to relevant security image
+                src={process.env.PUBLIC_URL + "/images/security3.png"}  // keep or update to relevant security image
               alt="Why Choose Us"
               className="img-fluid whyus-image"
             />

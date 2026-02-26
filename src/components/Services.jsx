@@ -4,37 +4,37 @@ import "./Services.css";
 
 const servicesData = [
   {
-    image: "/images/security5.png",
+    image: process.env.PUBLIC_URL + "/images/security5.png",
     title: "Armed & Unarmed Security Guards",
     description:
       "Professional, trained security personnel providing visible protection for businesses, residences, and facilities."
   },
   {
-    image: "/images/security6.png",
+    image: process.env.PUBLIC_URL + "/images/security6.png",
     title: "Mobile Patrol Services",
     description:
       "Scheduled and random patrols to deter crime, respond to incidents, and maintain safety across your premises."
   },
   {
-    image: "/images/security1.png",
+    image: process.env.PUBLIC_URL + "/images/security1.png",
     title: "CCTV Surveillance & Monitoring",
     description:
       "Installation and monitoring of advanced camera systems to ensure continuous surveillance and evidence recording."
   },
   {
-    image: "/images/security2.png",
+    image: process.env.PUBLIC_URL + "/images/security2.png",
     title: "Access Control & Gate Security",
     description:
       "Controlled entry and exit management using trained personnel and secure access systems."
   },
   {
-    image: "/images/security4.png",
+    image: process.env.PUBLIC_URL + "/images/security4.png",
     title: "Event Security Management",
     description:
       "Crowd control, risk management, and on-site security for events, functions, and special occasions."
   },
   {
-    image: "/images/digital.png",
+    image: process.env.PUBLIC_URL + "/images/digital.png",
     title: "Security Risk Assessments & Consulting",
     description:
       "Professional evaluation of security risks with tailored strategies to protect people, assets, and operations."
