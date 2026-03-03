@@ -18,7 +18,7 @@ const About = () => {
         <Row className="align-items-center">
           <Col md={6} className="mb-4">
             <Image
-                  src={process.env.PUBLIC_URL + "/images/security10.png"}
+                  src={process.env.PUBLIC_URL + "/images/ourteam5.jpeg"}
               alt="Engineering and IT"
               fluid
               rounded

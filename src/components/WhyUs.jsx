@@ -20,7 +20,7 @@ const WhyUs = () => {
           {/* LEFT CONTENT */}
           <Col md={6}>
             <p className="mb-4">
-              At <strong>SAKHIZIZWE TRADING ENTERPRISE</strong>, we combine professional expertise, integrity, 
+              At <strong>SAKHIZIZWE security services</strong>, we combine professional expertise, integrity, 
               and a client-focused approach to provide reliable security consulting services. 
               Our team works closely with you to assess risks, implement effective strategies, 
               and ensure the protection of your business, assets, and people.

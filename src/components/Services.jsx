@@ -22,7 +22,7 @@ const servicesData = [
       "Installation and monitoring of advanced camera systems to ensure continuous surveillance and evidence recording."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/security2.png",
+    image: process.env.PUBLIC_URL + "/images/working2.jpeg",
     title: "Access Control & Gate Security",
     description:
       "Controlled entry and exit management using trained personnel and secure access systems."
@@ -34,7 +34,7 @@ const servicesData = [
       "Crowd control, risk management, and on-site security for events, functions, and special occasions."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/security7.png",
+    image: process.env.PUBLIC_URL + "/images/working1.jpeg",
     title: "Security Risk Assessments & Consulting",
     description:
       "Professional evaluation of security risks with tailored strategies to protect people, assets, and operations."

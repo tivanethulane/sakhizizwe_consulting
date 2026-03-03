@@ -8,9 +8,9 @@ const Hero = () => {
       id="hero"
       className="hero-section text-white d-flex align-items-center section-offset"
       style={{
-  backgroundImage: `url(${process.env.PUBLIC_URL + "/images/security5.png"})`,
+  backgroundImage: `url(${process.env.PUBLIC_URL + "/images/hero.jpeg"})`,
   backgroundSize: "cover",
-  backgroundPosition: "center",
+  backgroundPosition: "center 15%",
 }}
     >
       <Container className="text-center">
