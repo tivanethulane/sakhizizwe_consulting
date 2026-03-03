@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sakhizizwe_consulting/static/css/main.9b3402f0.css",
-    "main.js": "/sakhizizwe_consulting/static/js/main.c82f9324.js",
+    "main.css": "/sakhizizwe_consulting/static/css/main.bdec7eea.css",
+    "main.js": "/sakhizizwe_consulting/static/js/main.9acc55cd.js",
     "index.html": "/sakhizizwe_consulting/index.html",
-    "main.9b3402f0.css.map": "/sakhizizwe_consulting/static/css/main.9b3402f0.css.map",
-    "main.c82f9324.js.map": "/sakhizizwe_consulting/static/js/main.c82f9324.js.map"
+    "main.bdec7eea.css.map": "/sakhizizwe_consulting/static/css/main.bdec7eea.css.map",
+    "main.9acc55cd.js.map": "/sakhizizwe_consulting/static/js/main.9acc55cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b3402f0.css",
-    "static/js/main.c82f9324.js"
+    "static/css/main.bdec7eea.css",
+    "static/js/main.9acc55cd.js"
   ]
 }
