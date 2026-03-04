@@ -5,33 +5,20 @@ import './Vision.css';
 
 const teamMembers = [
   {
-    role: "Director",
+    role: "Founder and Director",
     name: "Andrew Tyolo",
-    cell: "0781780048",
-    image: process.env.PUBLIC_URL + "/images/security1.png",
+    cell: "+27781780048",
+    image: process.env.PUBLIC_URL + "/images/Founder&director.jpeg",
     message: "Leading with integrity and vision to safeguard your operations.",
   },
   {
     role: "Operations Manager",
     name: "Douglas Sibanda",
-    cell: "0815782279",
-    image: process.env.PUBLIC_URL + "/images/security2.png",
+    cell: "+27815782279",
+    image: process.env.PUBLIC_URL + "/images/OperationManager.jpeg",
     message: "Ensuring seamless and effective security operations around the clock.",
   },
-  {
-    role: "Gauteng Region Sales Manager",
-    name: "Jabulani Japhet Mthimkhulu",
-    cell: "0732353034",
-    image: process.env.PUBLIC_URL + "/images/security3.png",
-    message: "Customer-focused solutions to meet your security demands in Gauteng.",
-  },
-  {
-    role: "Durban Region Sales Manager",
-    name: "Edith Takalani Matome",
-    cell: "0727349145",
-    image: process.env.PUBLIC_URL + "/images/security4.png",
-    message: "Dedicated to protecting your business and assets in Durban.",
-  },
+  
 ];
 
 const Vision = () => {

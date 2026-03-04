@@ -20,7 +20,7 @@ const Footer = () => {
           {/* <a href="https://twitter.com" target="_blank" rel="noreferrer" className="mx-1">
             <FaTwitter size={24} color="#1DA1F2" />
           </a> */}
-          <a href="https://wa.me/+27674016519" target="_blank" rel="noreferrer" className="mx-1">
+          <a href="https://wa.me/+27815782279" target="_blank" rel="noreferrer" className="mx-1">
             <FaWhatsapp size={24} color="#25D366" />
           </a>
           {/* <a href="https://t.me/yourtelegramusername" target="_blank" rel="noreferrer" className="mx-1">
@@ -33,7 +33,7 @@ const Footer = () => {
 
         {/* Copyright text */}
         <small className="mt-2 mt-lg-0">
-          © {new Date().getFullYear()} SAKHIZIZWE TRADING ENTERPRISE. All rights reserved.
+          © {new Date().getFullYear()} SAKHIZIZWE SECURITY SERVICES. All rights reserved.
         </small>
       </Container>
     </footer>

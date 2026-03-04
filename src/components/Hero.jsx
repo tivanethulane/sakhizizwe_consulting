@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <Container className="text-center">
         <h1 className="display-3 fw-bold animate__animated animate__fadeInDown">
-          SAKHIZIZWE TRADING ENTERPRISE
+          SAKHIZIZWE SECURITY SERVICES
         </h1>
         <p className="lead my-4 animate__animated animate__fadeInUp">
           Professional Security Consulting | Risk Assessment | Threat Prevention | Asset Protection
