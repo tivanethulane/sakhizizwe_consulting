@@ -37,7 +37,7 @@ const Vision = () => {
         </div>
         <h2 className="text-center mb-5">Our Vision</h2>
         <p className="lead text-center mx-auto" style={{ maxWidth: "700px" }}>
-          SAKHIZIZWE TRADING ENTERPRISE aims to be the trusted leader in security consulting, 
+          SAKHIZIZWE SECURITY SERVICES aims to be the trusted leader in security consulting, 
           delivering innovative, reliable, and proactive solutions to safeguard businesses, 
           protect people, and mitigate risks in an ever-changing environment.
         </p>
