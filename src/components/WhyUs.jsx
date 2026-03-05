@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col , Image} from "react-bootstrap";
 import { FaCheckCircle } from "react-icons/fa";
 import "./WhyUs.css";
 
@@ -19,6 +19,14 @@ const WhyUs = () => {
 
           {/* LEFT CONTENT */}
           <Col md={6}>
+          <div className="text-center mb-4">
+          <Image
+            src={process.env.PUBLIC_URL + "/images/favicon.ico"}
+            alt="Company Icon"
+            style={{ width: "120px", height: "120px" }}
+            roundedCircle
+          />
+        </div>
           
             <p className="mb-4">
               At <strong>SAKHIZIZWE SECURITY SERVICES</strong>, we combine professional expertise, integrity, 
