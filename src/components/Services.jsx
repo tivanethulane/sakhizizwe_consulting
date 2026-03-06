@@ -4,19 +4,19 @@ import "./Services.css";
 
 const servicesData = [
   {
-    image: process.env.PUBLIC_URL + "/images/security5.png",
+    image: process.env.PUBLIC_URL + "/images/STORE.jpeg",
     title: "Armed & Unarmed Security Guards",
     description:
       "Professional, trained security personnel providing visible protection for businesses, residences, and facilities."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/security6.png",
+    image: process.env.PUBLIC_URL + "/images/BAKKIE.jpeg",
     title: "Mobile Patrol Services",
     description:
       "Scheduled and random patrols to deter crime, respond to incidents, and maintain safety across your premises."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/security1.png",
+    image: process.env.PUBLIC_URL + "/images/security1.jpeg",
     title: "CCTV Surveillance & Monitoring",
     description:
       "Installation and monitoring of advanced camera systems to ensure continuous surveillance and evidence recording."
@@ -28,7 +28,7 @@ const servicesData = [
       "Controlled entry and exit management using trained personnel and secure access systems."
   },
   {
-    image: process.env.PUBLIC_URL + "/images/security4.png",
+    image: process.env.PUBLIC_URL + "/images/security2.jpeg",
     title: "Event Security Management",
     description:
       "Crowd control, risk management, and on-site security for events, functions, and special occasions."
