@@ -18,7 +18,20 @@ const teamMembers = [
     image: process.env.PUBLIC_URL + "/images/OperationManager.jpeg",
     message: "Ensuring seamless and effective security operations around the clock.",
   },
-  
+  {
+    role: "Sales Manager Inland Region",
+    name: "Japhet Jabulani Mthimkhulu",
+    cell: "0713496497",
+    image: process.env.PUBLIC_URL + "/images/Japhet.png",
+    message: "Focused on building strong client relationships and expanding our inland market presence.",
+  },
+  {
+    role: "Sales Manager Coastal Region",
+    name: "Edith Matome",
+    cell: "0713496497",
+    image: process.env.PUBLIC_URL + "/images/edit.jpeg",
+    message: "Dedicated to delivering security solutions and growing partnerships in the coastal region.",
+  },
 ];
 
 const Vision = () => {
@@ -62,7 +75,7 @@ const Vision = () => {
                       variant="top"
                       src={member.image}
                       alt={member.name}
-                      style={{ height: "250px", objectFit: "cover" }}
+                      style={{ height: "550px", objectFit: "cover" }}
                     />
                     <Card.Body>
                       <Card.Title>{member.name}</Card.Title>
