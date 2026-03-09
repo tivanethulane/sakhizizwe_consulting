@@ -22,7 +22,7 @@ const teamMembers = [
     role: "Sales Manager Inland Region",
     name: "Japhet Jabulani Mthimkhulu",
     cell: "0713496497",
-    image: process.env.PUBLIC_URL + "/images/Japhet.png",
+    image: process.env.PUBLIC_URL + "/images/japhet.png",
     message: "Focused on building strong client relationships and expanding our inland market presence.",
   },
   {
@@ -56,9 +56,16 @@ const Vision = () => {
         </p>
 
         <div className="text-center mt-4">
-          <Button variant="primary" onClick={handleShow}>
-            See Our Team
-          </Button>
+          
+          <Button
+                        href="#contact"
+                        size="lg"
+                        variant="primary"
+                        className="ms-3 animate__animated animate__zoomIn"
+                        onClick={handleShow} // <-- closes menu
+                      >
+                        View Our Team
+                      </Button>
         </div>
 
         {/* TEAM MODAL */}
